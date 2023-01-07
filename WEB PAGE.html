@@ -1,0 +1,32 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="box">
+        <div class="head"><h1>ONLINE PAYMENT</h1></div>
+        <hr>
+        <form>
+            <p>Name : <input type="text" required placeholder="Devansh Aage"> </p>
+            <p>Password :<input type="password" required></p>
+            <p>Mobile NO. : <input type="number" placeholder="0123456789" required></p>
+            <p>E-mail :<input type="email" required placeholder="abc@gmail.com"></p>
+            <p>Date :<input type="date"></p>
+            <fieldset>
+           <legend><p><h3>GENDER</h3></p></legend>
+            <p>Male <input type="radio" name="gender" id="male"><em>Female <input type="radio" name="gender" id="female"></em></p>
+            </fieldset>
+            <p>Address:  <br><textarea name="add" id="address" cols="100" rows="9" placeholder="Enter Your Address Here"></textarea></p>
+            <hr>
+            <h2>ENTER YOUR CARD TYPE : </h2>
+            <select name="card" id="card">
+                <option value="-">--SELECT A CARD TYPE--</option>
+                <option value="visa">VISA</option>
+                <option value="rupay">RUPAY</option>
+                <option value="mastercard">MASTERCARD</option>
+            </select>
+           <p><h3>Enter your card number :<input type="number"></h3></p>
+           <p><b>CVV :<input type="password" required></b></p>
+          <div class="button"><input type="submit" value="MAKE PAYMENT"></div>
+        </div>
+        </form>
+    </body>
+</head>
