@@ -1,0 +1,32 @@
+.box{
+    background-color:rgb(253, 249, 244);
+    padding: 20px;
+    margin: 5px 20px 15px 20 px;
+    border: 1px solid rgb(230, 230, 240);
+}
+.head{
+    text-align: center;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+textarea,input[type="submit"],select{
+    padding: 15px;
+    border: 1px solid rgb(251, 239, 239);
+    border-radius: 3px;
+    width: 100%;
+}
+fieldset{
+    background-color: rgb(227, 225, 222);
+    border: 1px solid rgb(89, 87, 87);
+}
+input[type="submit"]{
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+input[type="submit"]:hover{
+    background-color: rgb(170, 212, 212);
+}
